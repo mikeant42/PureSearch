@@ -11,3 +11,6 @@ You can add websites to the crawler through a control panel, which requires a lo
 - tidy
 
 This has been locally tested on an Archlinux system.
+
+##Credits
+- The Crawler class is from http://phpcrawl.cuab.de/about.html, and is licensed under the GPL2 license.
