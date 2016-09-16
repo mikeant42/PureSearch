@@ -1,0 +1,215 @@
+.crawler-settings {
+	border: 1px solid black;
+	padding: 10px;
+	width: 35%;
+	height: 75%;
+	background-color: rgba(240,240,240,0.3);
+	margin-top: 5%;
+	float: left;
+	margin-left: 5%;
+}
+
+.index {
+	float: right;
+	border: 1px solid black;
+	padding: 10px;
+	width: 35%;
+	height: 75%;
+	background-color: rgba(240,240,240,0.3);
+	margin-top: 5%;
+	margin-right: 5%;
+	overflow: auto;
+	position: relative;
+}
+
+.table {
+  display: table;
+  width: 100%;
+  margin: 0 0 20px;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.tr {
+  display: table-row;
+}
+
+.td {
+  display: table-cell;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+}
+
+.tr:first-child .td,
+.td:first-child {
+  background: #f5f5f5;
+}
+
+.td:first-child {
+  width: 100px;
+  text-align: right;
+}
+
+
+#overlay {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:100%;
+    height:100%;
+    text-align:center;
+    z-index: 1000;
+	display: none;
+}
+
+#overlay div {
+    width:300px;
+    margin: 100px auto;
+    background-color: #fff;
+    border:1px solid #000;
+    padding:15px;
+    text-align:center;
+}
+
+.crawler-settings-title {
+	background-color: #FFFFFF;
+	background: -moz-linear-gradient(top,  #d7d6d2,  #f9ffff);
+	background-image: linear-gradient(top,  #d7d6d2,  #f9ffff);
+	background-image: -o-linear-gradient(top,  #d7d6d2,  #f9ffff);
+	background-image: -moz-linear-gradient(top,  #d7d6d2,  #f9ffff);
+	background-image: -webkit-linear-gradient(top,  #d7d6d2,  #f9ffff);
+	background-image: -ms-linear-gradient(top,  #d7d6d2,  #f9ffff);
+	font-weight: bold;
+	color: black;
+	padding: 5px 5px 5px;
+	font-size: 25px;
+	width: 90%;
+	text-align: center;
+	display: block;
+}
+
+
+.iframe-crawler {
+	width: 85%;
+	height: 30%;
+	background-color: white;
+}
+
+
+
+div.square { 
+	top: 200px;
+	margin-left: 35%;
+	position: fixed;
+	display: block;
+	background-color: white;
+	border: #f9f9f9;
+	height: 200px;
+	width: 300px; 
+}
+div.square div.msg {
+	padding: 15px; 
+}
+
+.right {
+	float: right;
+}
+
+.left.up {
+	float: left;
+}
+
+tr:nth-child(even) {
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+border-bottom: 1px solid #ccc;
+background-color: #eee;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+background-image: -moz-linear-gradient(top, #f5f5f5, #eee);
+background-image: -ms-linear-gradient(top, #f5f5f5, #eee);
+background-image: -o-linear-gradient(top, #f5f5f5, #eee);
+background-image: linear-gradient(top, #f5f5f5, #eee);
+}
+}
+tr:nth-child(odd) {
+	background: white;
+}
+
+td.head {
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+padding: 8px;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+border-bottom: 1px solid #ccc;
+background-color: #eee;
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f5f5f5), to(#eee));
+background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+background-image: -moz-linear-gradient(top, #f5f5f5, #eee);
+background-image: -ms-linear-gradient(top, #f5f5f5, #eee);
+background-image: -o-linear-gradient(top, #f5f5f5, #eee);
+background-image: linear-gradient(top, #f5f5f5, #eee);
+}
+
+.iframe-searches {
+	width: 90%;
+	height: 65%;
+}
+
+#index-head {
+	position: absolute;
+	top: 0;
+}
+
+.logout-button {
+	width: 250px;
+	height: 50px;
+	font-size: 20px !important;
+	padding-top: 5%;
+	margin-left: 41%;
+}
+
+select {
+  -webkit-appearance: button;
+  -webkit-border-radius: 2px;
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  -webkit-padding-end: 20px;
+  -webkit-padding-start: 3px;
+  -webkit-user-select: none;
+  background-image: url(down-arrow.png), 
+    -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+  background-position: center right;
+  background-repeat: no-repeat;
+  border: 1px solid #AAA;
+  color: #555;
+  font-size: inherit;
+  margin: 0;
+  overflow: hidden;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 1375px) {
+	.left.up {
+		position: relative;
+		top: -135px;
+	}
+	
+	.mobile-left {
+		float: left;
+	}
+	
+	.netbook {
+		position: relative;
+		top: -35px;
+	}
+	
+	#access-up {
+		position: relative;
+		top: -40px;
+	}
+}
