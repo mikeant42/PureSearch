@@ -1,5 +1,5 @@
 <?php
-// Plugins made by michael.antkiewicz@aquinas-sta.org
+
 require_once('plugins/movie.php');
 require_once('plugins/define.php');
 require_once('plugins/calculate.php');
@@ -8,7 +8,6 @@ require_once('plugins/ipaddress.php');
 require_once('plugins/alternativesto.php');
 require_once('plugins/wiki.php');
 require_once('plugins/calculator.php');
-// End plugins made by michael.antkiewicz@aquinas-sta.org
 
 
 function callAllPlugins($str) {
